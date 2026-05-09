@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intelligent Hazard Mitigation Laboratory (iSHM) | San Francisco State University</title>
+    <meta
+      name="description"
+      content="The Intelligent Hazard Mitigation Laboratory (iSHM) at San Francisco State University advances smart structures, structural health monitoring, earthquake engineering, and AI-assisted health and engineering education research."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Intelligent Hazard Mitigation Laboratory home">
+        <span class="brand-mark">iSHM</span>
+        <span class="brand-text">
+          <strong>Intelligent Hazard Mitigation Laboratory</strong>
+          <span>San Francisco State University</span>
+        </span>
+      </a>
+      <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false" data-menu-button>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="main-nav" aria-label="Primary navigation" data-nav>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+        <a href="#news">News</a>
+        <a href="#people">People</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-band">
+        <div class="hero-copy">
+          <p class="lab-line">Directed by Professor Zhaoshuo Jiang, Ph.D., F. ASCE, P.E., LEED AP</p>
+          <h1>Intelligent Hazard Mitigation Laboratory (iSHM)</h1>
+          <p class="hero-summary">
+            Smart structures for safer, more resilient communities. We develop sensing,
+            computation, and data-driven methods to understand, monitor, and improve civil
+            infrastructure and built environments.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#research">Explore research</a>
+            <a class="button secondary" href="#contact">Join iSHM</a>
+          </div>
+          <dl class="hero-metrics" aria-label="iSHM profile highlights">
+            <div>
+              <dt>$2.7M+</dt>
+              <dd>Selected project funding listed on the SFSU profile</dd>
+            </div>
+            <div>
+              <dt>7</dt>
+              <dd>Selected funded projects</dd>
+            </div>
+            <div>
+              <dt>2</dt>
+              <dd>Professional engineer licenses</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="hero-visual" aria-label="Structural engineering research visualization">
+          <img src="assets/hero-structures.png" alt="Bridge, structural frame, sensors, and vibration traces" />
+          <div class="signal-card" aria-hidden="true">
+            <span>live sensing</span>
+            <svg viewBox="0 0 240 72" role="img">
+              <path d="M0 42 C18 42 21 42 30 42 C38 42 41 11 48 11 C56 11 58 42 66 42 C73 42 76 28 84 28 C93 28 96 42 105 42 C113 42 116 58 123 58 C131 58 134 42 143 42 C153 42 155 18 165 18 C174 18 178 42 187 42 C197 42 201 33 211 33 C222 33 226 42 240 42" />
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-strip" aria-label="Profile details">
+        <div>
+          <span>Discipline</span>
+          <strong>Structural Engineering & Earthquake Engineering</strong>
+        </div>
+        <div>
+          <span>Office</span>
+          <strong>SEIC 334</strong>
+        </div>
+        <div>
+          <span>Email</span>
+          <strong><a href="mailto:zsjiang@sfsu.edu">zsjiang@sfsu.edu</a></strong>
+        </div>
+      </section>
+
+      <section class="research section-band" id="research">
+        <div class="section-heading">
+          <p>Research</p>
+          <h2>From measured vibrations to informed action</h2>
+          <span>
+            The lab spans structural dynamics, smart structures, structural control, real-time
+            hybrid simulation, optimal design, smart connected health, and innovative engineering education.
+          </span>
+        </div>
+
+        <div class="research-shell">
+          <div class="tabs" role="tablist" aria-label="Research areas">
+            <button class="tab is-active" id="tab-shm" type="button" role="tab" aria-selected="true" aria-controls="panel-shm" data-research-tab="shm">
+              Structural Health Monitoring
+            </button>
+            <button class="tab" id="tab-smart" type="button" role="tab" aria-selected="false" aria-controls="panel-smart" data-research-tab="smart">
+              Smart Structures
+            </button>
+            <button class="tab" id="tab-dynamics" type="button" role="tab" aria-selected="false" aria-controls="panel-dynamics" data-research-tab="dynamics">
+              Dynamics & Control
+            </button>
+            <button class="tab" id="tab-health" type="button" role="tab" aria-selected="false" aria-controls="panel-health" data-research-tab="health">
+              Smart Connected Health
+            </button>
+            <button class="tab" id="tab-education" type="button" role="tab" aria-selected="false" aria-controls="panel-education" data-research-tab="education">
+              Engineering Education
+            </button>
+          </div>
+
+          <article class="research-panel" id="panel-shm" role="tabpanel" aria-labelledby="tab-shm" data-research-panel="shm">
+            <div class="panel-diagram">
+              <svg viewBox="0 0 320 240" aria-hidden="true">
+                <path class="bridge" d="M38 145 H282 M63 145 V74 M257 145 V74 M63 74 C100 123 219 123 257 74 M38 145 C88 92 231 92 282 145" />
+                <path class="deck" d="M76 145 V107 M99 145 V98 M123 145 V93 M148 145 V91 M173 145 V91 M198 145 V95 M222 145 V103 M245 145 V116" />
+                <path class="wave" d="M55 190 C72 190 80 190 96 190 C111 190 115 176 125 176 C137 176 139 204 150 204 C163 204 164 161 176 161 C188 161 190 215 203 215 C216 215 217 188 229 188 C242 188 247 190 265 190" />
+                <circle cx="123" cy="93" r="6" />
+                <circle cx="198" cy="95" r="6" />
+                <circle cx="245" cy="116" r="6" />
+              </svg>
+            </div>
+            <div>
+              <h3>Structural Health Monitoring</h3>
+              <p>
+                Continuous sensing and analytics help evaluate bridge, building, and infrastructure performance
+                before small anomalies become expensive failures.
+              </p>
+              <ul>
+                <li>Wireless sensing and data acquisition</li>
+                <li>Damage detection and diagnosis</li>
+                <li>Risk-informed decision support for civil infrastructure</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="research-panel" id="panel-smart" role="tabpanel" aria-labelledby="tab-smart" hidden data-research-panel="smart">
+            <div class="panel-diagram">
+              <svg viewBox="0 0 320 240" aria-hidden="true">
+                <path class="frame" d="M70 190 V50 H244 V190 M70 96 H244 M70 143 H244 M112 50 V190 M159 50 V190 M207 50 V190 M70 190 H244" />
+                <path class="accent-line" d="M86 174 L128 143 L160 160 L207 96 L236 112" />
+                <circle cx="128" cy="143" r="6" />
+                <circle cx="207" cy="96" r="6" />
+                <circle cx="236" cy="112" r="6" />
+              </svg>
+            </div>
+            <div>
+              <h3>Smart Structures</h3>
+              <p>
+                Smart structural systems combine sensing, actuation, and computation to adapt to loads,
+                support inspections, and improve operational resilience.
+              </p>
+              <ul>
+                <li>Embedded sensor networks</li>
+                <li>Adaptive infrastructure concepts</li>
+                <li>Cyber-physical testing workflows</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="research-panel" id="panel-dynamics" role="tabpanel" aria-labelledby="tab-dynamics" hidden data-research-panel="dynamics">
+            <div class="panel-diagram">
+              <svg viewBox="0 0 320 240" aria-hidden="true">
+                <path class="grid" d="M54 188 H270 M70 188 C80 112 100 112 111 188 C121 112 141 112 151 188 C162 112 182 112 192 188 C203 112 223 112 234 188" />
+                <path class="accent-line" d="M60 74 H116 M116 74 L132 48 L154 100 L177 61 L193 74 H260" />
+                <path class="frame" d="M78 188 L78 120 H128 L128 188 M178 188 L178 88 H228 L228 188" />
+              </svg>
+            </div>
+            <div>
+              <h3>Structural Dynamics & Control</h3>
+              <p>
+                Dynamic response, structural control, and real-time hybrid simulation create a bridge between
+                laboratory experiments and field-scale structural behavior.
+              </p>
+              <ul>
+                <li>Real-time hybrid simulation</li>
+                <li>Seismic response and structural control</li>
+                <li>Multi-directional motion and high-performance measurement</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="research-panel" id="panel-health" role="tabpanel" aria-labelledby="tab-health" hidden data-research-panel="health">
+            <div class="panel-diagram">
+              <svg viewBox="0 0 320 240" aria-hidden="true">
+                <path class="frame" d="M56 168 H264 V95 H225 V68 H167 V95 H96 V168" />
+                <path class="accent-line" d="M74 144 C104 132 120 142 145 126 C172 109 190 122 216 104 C235 91 247 94 264 86" />
+                <circle cx="145" cy="126" r="6" />
+                <circle cx="216" cy="104" r="6" />
+                <path class="wave" d="M70 196 H115 L124 181 L137 213 L154 166 L171 196 H251" />
+              </svg>
+            </div>
+            <div>
+              <h3>Smart Connected Health</h3>
+              <p>
+                Floor vibrations and home sensing can reveal gait parameters and health indicators while
+                preserving everyday living patterns.
+              </p>
+              <ul>
+                <li>AI-assisted home health monitoring systems</li>
+                <li>At-home gait inference from floor vibrations</li>
+                <li>Interdisciplinary sensing and human-centered data analysis</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="research-panel" id="panel-education" role="tabpanel" aria-labelledby="tab-education" hidden data-research-panel="education">
+            <div class="panel-diagram">
+              <svg viewBox="0 0 320 240" aria-hidden="true">
+                <path class="frame" d="M62 72 H258 V182 H62 Z M96 102 H224 M96 128 H186 M96 154 H210" />
+                <path class="accent-line" d="M88 190 C112 170 132 167 158 184 C188 204 214 183 238 160" />
+                <circle cx="88" cy="190" r="6" />
+                <circle cx="158" cy="184" r="6" />
+                <circle cx="238" cy="160" r="6" />
+              </svg>
+            </div>
+            <div>
+              <h3>Innovative Engineering Education</h3>
+              <p>
+                The lab develops equipment, platforms, and AI-supported learning environments that make
+                engineering concepts tangible, collaborative, and student-centered.
+              </p>
+              <ul>
+                <li>Student-centered collaborative AI learning</li>
+                <li>Remote and online laboratory experiences</li>
+                <li>Research experiences for undergraduate engineers</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="projects section-band" id="projects">
+        <div class="section-heading">
+          <p>Projects</p>
+          <h2>Funded work across structures, health, AI, and education</h2>
+          <span>Selected projects listed on the SFSU School of Engineering profile.</span>
+        </div>
+
+        <div class="filter-row" aria-label="Project filters">
+          <button class="filter is-active" type="button" data-project-filter="all">All</button>
+          <button class="filter" type="button" data-project-filter="structures">Structures</button>
+          <button class="filter" type="button" data-project-filter="health">Health</button>
+          <button class="filter" type="button" data-project-filter="education">Education</button>
+          <button class="filter" type="button" data-project-filter="ai">AI</button>
+        </div>
+
+        <div class="project-summary" aria-live="polite">
+          <strong data-project-count>7</strong>
+          <span>projects shown</span>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card" data-project-card data-tags="education ai">
+            <div class="project-art ai"></div>
+            <div class="project-meta">
+              <span>California Education Learning Lab</span>
+              <strong>$149,951</strong>
+            </div>
+            <h3>SCAPE</h3>
+            <p>Student-centered Collaborative AI Platform for Personalized Engineering Learning Experience.</p>
+            <small>Role: Co-PI</small>
+          </article>
+
+          <article class="project-card" data-project-card data-tags="health ai">
+            <div class="project-art health"></div>
+            <div class="project-meta">
+              <span>NSF Award #2450039</span>
+              <strong>$199,930</strong>
+            </div>
+            <h3>AI-assisted home health monitoring</h3>
+            <p>Interdisciplinary research and education through AI-assisted home health monitoring systems.</p>
+            <small>Role: PI</small>
+          </article>
+
+          <article class="project-card" data-project-card data-tags="structures">
+            <div class="project-art structures"></div>
+            <div class="project-meta">
+              <span>Department of Defense</span>
+              <strong>$541,514</strong>
+            </div>
+            <h3>Motion platforms and high-performance data acquisition</h3>
+            <p>Multi-directional hexapod motion platforms and data acquisition for research and education.</p>
+            <small>Role: PI</small>
+          </article>
+
+          <article class="project-card" data-project-card data-tags="education structures">
+            <div class="project-art education"></div>
+            <div class="project-meta">
+              <span>NSF Award #2434215</span>
+              <strong>$196,135</strong>
+            </div>
+            <h3>ELITE</h3>
+            <p>Enhancing Learning through Innovative Teaching Equipment.</p>
+            <small>Role: PI</small>
+          </article>
+
+          <article class="project-card" data-project-card data-tags="health structures">
+            <div class="project-art health"></div>
+            <div class="project-meta">
+              <span>NIH/NIA R01AG067395</span>
+              <strong>$1,196,240</strong>
+            </div>
+            <h3>At-home gait parameters from floor vibrations</h3>
+            <p>Inferring gait parameters of older adults using floor vibration signatures.</p>
+            <small>Role: PI</small>
+          </article>
+
+          <article class="project-card" data-project-card data-tags="structures">
+            <div class="project-art wind"></div>
+            <div class="project-meta">
+              <span>NSF Award #2028647</span>
+              <strong>$285,491</strong>
+            </div>
+            <h3>Aerodynamic optimization of tall buildings</h3>
+            <p>Automated cyber-physical testing for aerodynamic shape optimization of tall buildings.</p>
+            <small>Role: PI</small>
+          </article>
+
+          <article class="project-card" data-project-card data-tags="education structures">
+            <div class="project-art reu"></div>
+            <div class="project-meta">
+              <span>NSF Award #1659877</span>
+              <strong>$144,434</strong>
+            </div>
+            <h3>REU site in smart structure technology</h3>
+            <p>Integrated academia-industry research experience for undergraduates.</p>
+            <small>Role: PI</small>
+          </article>
+        </div>
+      </section>
+
+      <section class="publications section-band" id="publications">
+        <div class="section-heading">
+          <p>Publications</p>
+          <h2>Technical foundations behind iSHM</h2>
+          <span>
+            Public LinkedIn profile details add a publication trail in structural control,
+            damage detection, seismic retrofit, and real-time hybrid simulation.
+          </span>
+        </div>
+
+        <div class="publication-controls" aria-label="Publication topic filters">
+          <button class="filter is-active" type="button" data-publication-filter="all">All</button>
+          <button class="filter" type="button" data-publication-filter="control">Control</button>
+          <button class="filter" type="button" data-publication-filter="monitoring">Monitoring</button>
+          <button class="filter" type="button" data-publication-filter="simulation">Simulation</button>
+          <button class="filter" type="button" data-publication-filter="retrofit">Retrofit</button>
+        </div>
+
+        <div class="publication-grid">
+          <article class="publication-card" data-publication-card data-tags="control simulation">
+            <time datetime="2016">2016</time>
+            <h3>Including Uncertainty in Modeling the Dynamic Response of a Large-Scale 200 kN Magneto-Rheological Damper</h3>
+            <p>Probabilistic modeling work for uncertainty-aware MR damper parameters and control applications.</p>
+            <span>American Society of Civil Engineers</span>
+          </article>
+          <article class="publication-card" data-publication-card data-tags="monitoring">
+            <time datetime="2015">2015</time>
+            <h3>Experimental Verification of Substructure Identification for Damage Detection in Shear Buildings</h3>
+            <p>Experimental damage-detection research using story-level stiffness identification in a steel structure.</p>
+            <span>Journal of Engineering Mechanics</span>
+          </article>
+          <article class="publication-card" data-publication-card data-tags="retrofit">
+            <time datetime="2015">2015</time>
+            <h3>Historic Desmond Building Retrofit</h3>
+            <p>A seismic retrofit case study for a historic non-ductile concrete building in the Los Angeles area.</p>
+            <span>American Society of Civil Engineers</span>
+          </article>
+          <article class="publication-card" data-publication-card data-tags="control simulation">
+            <time datetime="2014">2014</time>
+            <h3>Large-Scale Real-Time Hybrid Simulation for Evaluation of Advanced Damping System Performance</h3>
+            <p>Large-scale testing of advanced damping systems through real-time hybrid simulation under seismic excitation.</p>
+            <span>Journal of Structural Engineering</span>
+          </article>
+          <article class="publication-card" data-publication-card data-tags="control simulation monitoring">
+            <time datetime="2013">2013</time>
+            <h3>Real-time Hybrid Simulation of a Complex Bridge Model with MR Dampers</h3>
+            <p>Hybrid simulation of a complex bridge model with large-scale MR dampers and traffic-induced vibration context.</p>
+            <span>Smart Materials and Structures</span>
+          </article>
+          <article class="publication-card" data-publication-card data-tags="control">
+            <time datetime="2012">2012</time>
+            <h3>A Fully Dynamic Magneto-rheological Fluid Damper Model</h3>
+            <p>Modeling work for semiactive control devices used to dissipate structural energy under dynamic loading.</p>
+            <span>Smart Materials and Structures</span>
+          </article>
+        </div>
+
+        <div class="foundations">
+          <h3>Project history also points to</h3>
+          <div class="foundation-list">
+            <span>Online bridge monitoring frameworks</span>
+            <span>Instructional shake table control</span>
+            <span>NEES cyberinfrastructure deployment</span>
+            <span>Interactive bio-sensing and actuation</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="news section-band" id="news">
+        <div class="section-heading">
+          <p>News</p>
+          <h2>Lab and School of Engineering highlights</h2>
+          <span>Recent items from the SFSU profile can become a living lab timeline.</span>
+        </div>
+
+        <div class="news-layout">
+          <aside class="news-filters" aria-label="News filters">
+            <button class="news-filter is-active" type="button" data-news-filter="all">All updates</button>
+            <button class="news-filter" type="button" data-news-filter="award">Awards</button>
+            <button class="news-filter" type="button" data-news-filter="student">Students</button>
+            <button class="news-filter" type="button" data-news-filter="grant">Grants</button>
+            <button class="news-filter" type="button" data-news-filter="media">Media</button>
+          </aside>
+          <div class="timeline">
+            <article data-news-item data-tags="award">
+              <time datetime="2022-06">June 2022</time>
+              <h3>Zhaoshuo Jiang named CSU STEM-NET Fellow</h3>
+              <p>Recognition by the California State University STEM-NET program.</p>
+            </article>
+            <article data-news-item data-tags="award">
+              <time datetime="2022-01">January 2022</time>
+              <h3>2022 GOLC International Online Laboratory Award</h3>
+              <p>Remote Laboratory Category award from the Global Online Laboratory Consortium.</p>
+            </article>
+            <article data-news-item data-tags="student">
+              <time datetime="2021-12">December 2021</time>
+              <h3>Graduate student Charlie Vidal receives 1st place</h3>
+              <p>35th Annual CSU-Wide Research Competition recognition.</p>
+            </article>
+            <article data-news-item data-tags="grant">
+              <time datetime="2021-09">September 2021</time>
+              <h3>SoE awarded $1M NSF HSI Grant</h3>
+              <p>Strengthening student motivation and resilience through research and advising.</p>
+            </article>
+            <article data-news-item data-tags="student">
+              <time datetime="2020">2020</time>
+              <h3>Engineering students win 1st place</h3>
+              <p>CSU Student Research Competition award.</p>
+            </article>
+            <article data-news-item data-tags="media health">
+              <time datetime="2019-11">November 2019</time>
+              <h3>Using seismic sensors to help the elderly track their health</h3>
+              <p>A public-facing story connecting structural sensing methods to health monitoring.</p>
+            </article>
+            <article data-news-item data-tags="grant education">
+              <time datetime="2017">2017</time>
+              <h3>NSF REU Site Program</h3>
+              <p>Research experiences for undergraduates in smart structure technology.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="people section-band" id="people">
+        <div class="section-heading">
+          <p>People</p>
+          <h2>Mentorship anchored in practice and public impact</h2>
+          <span>Dr. Jiang brings structural engineering practice, professional licensure, and academic research into iSHM.</span>
+        </div>
+
+        <div class="people-grid">
+          <article class="profile-card">
+            <div class="profile-monogram">ZJ</div>
+            <div>
+              <h3>Zhaoshuo Jiang, Ph.D., F. ASCE, P.E., LEED AP</h3>
+              <p>Professor of Civil Engineering, San Francisco State University</p>
+              <p>
+                Dr. Jiang earned a Ph.D. in Civil Engineering from the University of Connecticut and worked as a
+                structural engineer, including experience with Skidmore, Owings & Merrill, before joining SFSU.
+              </p>
+              <div class="profile-links">
+                <a href="https://engineering.sfsu.edu/faculty-profile-zhaoshuo-jiang" target="_blank" rel="noreferrer">SFSU profile</a>
+                <a href="https://www.linkedin.com/in/zhaoshuo/" target="_blank" rel="noreferrer">LinkedIn</a>
+              </div>
+            </div>
+          </article>
+          <aside class="credentials">
+            <h3>Education</h3>
+            <ul>
+              <li>Ph.D., Structural Engineering, University of Connecticut</li>
+              <li>M.S., Structural Engineering, University of Connecticut</li>
+            </ul>
+            <h3>Licenses and recognition</h3>
+            <ul>
+              <li>Licensed Professional Engineer, Connecticut and California</li>
+              <li>LEED AP BD+C</li>
+              <li>CSU STEM-NET Fellow</li>
+              <li>ASCE ExCEEd Fellow</li>
+            </ul>
+            <h3>Languages</h3>
+            <ul>
+              <li>English</li>
+              <li>Chinese, Cantonese</li>
+              <li>Chinese, Mandarin</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="join section-band" id="contact">
+        <div class="join-copy">
+          <h2>Join iSHM</h2>
+          <p>
+            Prospective students and collaborators interested in intelligent hazard mitigation,
+            smart structures, sensing, AI-assisted infrastructure, health monitoring, and hands-on
+            engineering education are welcome to connect.
+          </p>
+          <a class="button primary light" href="https://calendly.com/913867609-sfsu/officehour" target="_blank" rel="noreferrer">
+            Schedule a meeting
+          </a>
+        </div>
+        <div class="contact-panel">
+          <h3>Contact</h3>
+          <address>
+            <span>Department of Civil Engineering</span>
+            <span>San Francisco State University</span>
+            <span>Office: SEIC 334</span>
+            <span>Phone: <a href="tel:+14153387741">(415) 338-7741</a></span>
+            <span>Email: <a href="mailto:zsjiang@sfsu.edu">zsjiang@sfsu.edu</a></span>
+          </address>
+          <button class="copy-email" type="button" data-copy-email>Copy email</button>
+          <p class="copy-status" aria-live="polite" data-copy-status></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="footer-brand" href="#top">
+        <span class="brand-mark">iSHM</span>
+        <span>Intelligent Hazard Mitigation Laboratory</span>
+      </a>
+      <div>
+        <a href="https://engineering.sfsu.edu/faculty-profile-zhaoshuo-jiang" target="_blank" rel="noreferrer">Source profile</a>
+        <a href="https://www.linkedin.com/in/zhaoshuo/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="mailto:zsjiang@sfsu.edu">zsjiang@sfsu.edu</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
